@@ -1,0 +1,30 @@
+/* Header section styles **********/
+.header {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 390px;
+    margin: var(--spacing-xxlarge) auto;
+}
+
+.header__image-cell {
+    width: 100%;
+}
+
+.header__image-element {
+    width: 100%;
+    margin-bottom: var(--spacing-xxlarge);
+}
+
+.header__title {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: var(--font-size-xxlarge);
+    margin-bottom: var(--spacing-large);
+    text-align: center;
+}
+
+.header__description {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: var(--font-size-large);
+    text-align: center;
+    line-height: var(--spacing-large);
+}

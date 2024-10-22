@@ -1,0 +1,22 @@
+/* Body styles **********/
+body {
+    min-height: 100vh;
+    font-family: "Roboto Regular", sans-serif;
+    background-color: var(--background-color-light);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main styles **********/
+main {
+    flex: 1;
+    max-width: 1200px;
+    min-width: 390px;
+    margin: 0 auto;
+}
+
+/* Section styles **********/
+section {
+
+}

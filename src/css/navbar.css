@@ -1,0 +1,49 @@
+/* Navbar section styles **********/
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    padding: var(--spacing-medium);
+    background-color: var(--background-nav-color);
+}
+
+.navbar__image {}
+
+.navbar__image-link {
+    display: flex;
+}
+
+.navbar__image-element {
+    transition: all 0.2s ease;
+}
+
+.navbar__image-element:hover {
+    opacity: 70%;
+    transition: all 0.2s ease;
+}
+
+.navbar__links {
+    display: flex;
+    gap: var(--spacing-xlarge);
+    padding-right: var(--spacing-large);
+}
+
+.navbar__item {
+    list-style: none;
+}
+
+.navbar__link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 0.3s ease;
+}
+
+.navbar__link:hover {
+    color: var(--hover-link-color-dark);
+    transition: all 0.3s ease;
+}
