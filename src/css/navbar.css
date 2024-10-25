@@ -11,8 +11,6 @@
     background-color: var(--background-nav-color);
 }
 
-.navbar__image {}
-
 .navbar__image-link {
     display: flex;
 }
@@ -39,7 +37,7 @@
 .navbar__link {
     color: var(--link-color);
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: var(--font-size-meduim);
     transition: all 0.3s ease;
 }
 

@@ -1,0 +1,100 @@
+body {
+    background-color: var(--form-primary-color);
+}
+
+.order {
+    width: 40rem;
+}
+
+.order-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+}
+
+.order-form__section {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-medium);
+    gap: var(--spacing-small);
+    border-radius: var(--border-radius-base);
+    border: none;
+    background-color: var(--form-secondary-color);
+}
+
+.order-form__heading {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: var(--font-size-small);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: var(--border-radius-base); 
+}
+
+.order-form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-form__label {
+    font-size: var(--font-size-base);
+    font-family: "Roboto Bold", sans-serif;
+    margin-bottom: var(--spacing-small);
+}
+
+.order-form__select {
+    padding: var(--spacing-xsmall);
+    border-radius: var(--border-radius-base);
+    border: none;
+    cursor: pointer;
+}
+
+.order-form__input {
+    padding: var(--spacing-xsmall);
+    border-radius: var(--border-radius-base);
+    font-size: var(--font-size-base);
+    border: none;
+}
+
+.order-form__textarea {
+    padding: var(--spacing-xsmall);
+    font-size: var(--font-size-base);
+    border-radius: var(--border-radius-base);
+    border: none;
+}
+
+.order-form__terms-label {
+    color: var(--font-color-light);
+}
+
+.order-form__terms-link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.order-form__terms-link:hover {
+    color: var(--hover-link-color-light);
+    transition: all 0.3s ease;
+}
+
+.order-form__actions {
+    text-align: center;
+}
+
+.order-form__submit-button {
+    padding: var(--spacing-small);
+    transition: all 0.3s ease;
+    background-color: var(--link-color);
+    color: var(--font-color-light);
+    font-size: var(--font-size-small);
+    font-family: "Roboto Bold", sans-serif;
+    border-radius: var(--border-radius-base);
+    cursor: pointer;
+    width: 100%;
+}
+
+.order-form__submit-button:hover {
+    transition: all 0.3s ease;
+    background-color: var(--hover-link-color-light);
+    color: var(--font-color-dark);
+}

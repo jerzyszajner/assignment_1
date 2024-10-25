@@ -1,9 +1,13 @@
 /* Header section styles **********/
 .header {
-    width: 100%;
+    width: 50%;
     max-width: 1200px;
     min-width: 390px;
-    margin: var(--spacing-xxlarge) auto;
+    margin: var(--spacing-large) auto;
+}
+
+.header--form {
+    color: var(--font-color-light);
 }
 
 .header__image-cell {
@@ -12,19 +16,19 @@
 
 .header__image-element {
     width: 100%;
-    margin-bottom: var(--spacing-xxlarge);
+    margin-bottom: var(--spacing-medium);
 }
 
 .header__title {
     font-family: "Roboto Bold", sans-serif;
-    font-size: var(--font-size-xxlarge);
-    margin-bottom: var(--spacing-large);
+    font-size: var(--font-size-xlarge);
+    margin-bottom: var(--spacing-medium);
     text-align: center;
 }
 
 .header__description {
     font-family: "Roboto Bold", sans-serif;
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-meduim);
     text-align: center;
     line-height: var(--spacing-large);
 }

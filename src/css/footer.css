@@ -18,8 +18,6 @@
     list-style: none;
 }
 
-.footer__item {}
-
 .footer__link {
     color: var(--link-color);
     text-decoration: none;
