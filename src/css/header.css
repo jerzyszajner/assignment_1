@@ -1,28 +1,25 @@
 /* Header section styles **********/
 .header {
-    width: 50%;
+    width: 100%;
     max-width: 1200px;
     min-width: 390px;
     margin: var(--spacing-large) auto;
+    padding: 0 var(--spacing-medium);
 }
 
 .header--form {
     color: var(--font-color-light);
 }
 
-.header__image-cell {
-    width: 100%;
-}
-
 .header__image-element {
     width: 100%;
-    margin-bottom: var(--spacing-medium);
+    height: auto;
 }
 
 .header__title {
     font-family: "Roboto Bold", sans-serif;
     font-size: var(--font-size-xlarge);
-    margin-bottom: var(--spacing-medium);
+    margin: var(--spacing-medium) 0;
     text-align: center;
 }
 
@@ -30,5 +27,40 @@
     font-family: "Roboto Bold", sans-serif;
     font-size: var(--font-size-meduim);
     text-align: center;
-    line-height: var(--spacing-large);
+}
+
+/* Styles for tablets and smaller screens **********/
+@media screen and (max-width: 897px) {
+
+    /* Header section styles **********/
+    .header {
+        margin: var(--spacing-medium) auto;
+    }
+
+    .header__title {
+        margin: var(--spacing-small) 0;
+    }
+
+    .header__description {
+        font-size: var(--font-size-small);
+    }
+}
+
+/* Styles for mobile devices and small screens **********/
+@media screen and (max-width: 500px) {
+
+    /* Header section styles **********/
+    .header {
+        margin: var(--spacing-small) auto;
+        padding: 0 var(--spacing-small);
+    }
+
+    .header__title {
+        font-size: var(--font-size-large);
+        margin: 0;
+    }
+
+    .header__description {
+        font-size: var(--font-size-xsmall);
+    }
 }

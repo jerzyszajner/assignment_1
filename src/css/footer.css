@@ -4,12 +4,13 @@
     display: flex;
     justify-content: space-between;
     padding: var(--spacing-medium);
-    background-color: var(--background-color-dark);
+    background-color: var(--background-color-footer);
 }
 
 .footer__paragraph {
     display: block;
     color: var(--font-color-light);
+    font-size: var(--font-size-base);
 }
 
 .footer__list {
@@ -27,4 +28,31 @@
 .footer__link:hover {
     color: var(--hover-link-color-light);
     transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 897px) {
+
+    /* Footer styles **********/
+    .footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: var(--spacing-small);
+        padding: var(--spacing-small);
+    }
+
+    .footer__paragraph {
+        font-size: var(--font-size-base);
+    }
+
+    .footer__list {
+        gap: var(--spacing-xxlarge);
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Footer styles **********/
+    .footer__list {
+        gap: var(--spacing-medium);
+    }
 }

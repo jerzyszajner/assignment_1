@@ -45,3 +45,31 @@
     color: var(--hover-link-color-dark);
     transition: all 0.3s ease;
 }
+
+/* Styles for tablets and smaller screens **********/
+@media screen and (max-width: 897px) {
+    /* Navbar section styles **********/
+    .navbar {
+        padding: var(--spacing-small);
+    }
+
+    .navbar__links {
+        padding-right: var(--spacing-medium);
+    }
+}
+
+/* Styles for mobile devices and small screens **********/
+@media screen and (max-width: 500px){
+    /* Navbar section styles **********/
+    .navbar {
+        padding: var(--spacing-xsmall);
+    }
+
+    .navbar__image-element {
+        width: 80%;
+    }
+
+    .navbar__links {
+        padding-right: var(--spacing-small);
+    }
+}

@@ -1,36 +1,39 @@
 /* CSS Variables */
 :root {
-    /* Colors */
+	/* Colors */
 	--base-color: #ffffff;
 	--background-color-light: #ecfafc;
-	--background-color-dark: #000000;
-	--background-nav-color:#7acece;
+	--background-color-dark: #3f3f3f;
+	--background-nav-color: #7acece;
+	--background-color-footer: #000000;
 	--border-color-light: #ffffff;
 	--border-color-dark: #000000;
 	--font-color-light: #ffffff;
 	--font-color-dark: #000000;
 	--link-color: #207c59;
 	--hover-link-color-light: #00ff9d;
-    --hover-link-color-dark: #16231e;
+	--hover-link-color-dark: #16231e;
 	--form-primary-color: #3f3f3f;
-	--form-secondary-color: lightgray;
+	--form-secondary-color: #d3d3d3;
 
-    /* Spacing */
+	/* Spacing */
 	--spacing-xsmall: 0.25rem;
 	--spacing-small: 0.5rem;
 	--spacing-medium: 1rem;
 	--spacing-large: 2rem;
 	--spacing-xlarge: 3rem;
 	--spacing-xxlarge: 4rem;
+	--spacing-xxxlarge: 6rem;
 
 	/* Font size */
 	--font-size-base: 0.9rem;
+	--font-size-xsmall: 0.8rem;
 	--font-size-small: 1.2rem;
 	--font-size-meduim: 1.4rem;
 	--font-size-large: 1.9rem;
 	--font-size-xlarge: 3rem;
 	--font-size-xxlarge: 4rem;
-	
+
 	/* Border radius */
 	--border-radius-base: 0.25rem;
 }

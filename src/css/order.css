@@ -2,16 +2,14 @@ body {
     background-color: var(--form-primary-color);
 }
 
-.order {
-    width: 40rem;
-}
-
+/* Main container for the order form *********/
 .order-form {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-small);
 }
 
+/* Form section styles *********/
 .order-form__section {
     display: flex;
     flex-direction: column;
@@ -27,9 +25,10 @@ body {
     font-size: var(--font-size-small);
     text-align: center;
     text-transform: uppercase;
-    border-radius: var(--border-radius-base); 
+    border-radius: var(--border-radius-base);
 }
 
+/* Form field group and input styles **********/
 .order-form__group {
     display: flex;
     flex-direction: column;
@@ -42,19 +41,11 @@ body {
 }
 
 .order-form__select {
-    padding: var(--spacing-xsmall);
-    border-radius: var(--border-radius-base);
-    border: none;
     cursor: pointer;
 }
 
-.order-form__input {
-    padding: var(--spacing-xsmall);
-    border-radius: var(--border-radius-base);
-    font-size: var(--font-size-base);
-    border: none;
-}
-
+.order-form__select,
+.order-form__input,
 .order-form__textarea {
     padding: var(--spacing-xsmall);
     font-size: var(--font-size-base);
@@ -62,6 +53,7 @@ body {
     border: none;
 }
 
+/* Terms and conditions styles *********/
 .order-form__terms-label {
     color: var(--font-color-light);
 }
@@ -77,6 +69,7 @@ body {
     transition: all 0.3s ease;
 }
 
+/* Submit button styles *********/
 .order-form__actions {
     text-align: center;
 }
@@ -97,4 +90,45 @@ body {
     transition: all 0.3s ease;
     background-color: var(--hover-link-color-light);
     color: var(--font-color-dark);
+}
+
+/* Styles for mobile devices and small screens **********/
+@media screen and (max-width: 500px) {
+
+    /* Main container for the order form *********/
+    .order-form {
+        gap: var(--spacing-xsmall);
+    }
+
+    /* Form section styles *********/
+    .order-form__section {
+        padding: var(--spacing-small);
+    }
+
+    .order-form__heading {
+        font-family: "Roboto Bold", sans-serif;
+        font-size: var(--font-size-small);
+    }
+
+    /* Form field group and input styles **********/
+    .order-form__label {
+        margin-bottom: var(--spacing-xsmall);
+    }
+
+    .order-form__select,
+    .order-form__input,
+    .order-form__textarea {
+        padding: var(--spacing-xsmall);
+        font-size: var(--font-size-xsmall);
+    }
+
+    /* Terms and conditions styles *********/
+    .order-form__terms-label {
+        font-size: var(--font-size-base);
+    }
+
+    /* Submit button styles *********/
+    .order-form__submit-button {
+        padding: var(--spacing-xsmall);
+    }
 }
