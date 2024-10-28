@@ -9,7 +9,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 
 ## Brief Description:
 
-### Rocket Biocca Espresso Machine Project - assigment_1
+### Rocket Biocca Espresso Machine Project - assignment_1
 This project showcases the Rocket Biocca espresso machine, a high-end product designed for discerning coffee enthusiasts for home use. The webpage features the product’s main features, an image gallery, technical specifications, and an embedded promotional video.
 
 ### Technologies and Features:
