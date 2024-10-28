@@ -1,8 +1,23 @@
-Brief description of your project, link to
-the GitHub repository, and link for the Netlify deployment.
+## Product referens link:
+https://rocket-espresso.com/products/domestic-models/bicocca
 
-Product referens link:
-https://rocket-espresso.com/products/domestic-models/r-cinquantotto
-
-Form references link:
+## Form references link:
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form
+
+## Gallery Carousel referances link:
+https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
+
+## Brief Description:
+
+### Rocket Biocca Espresso Machine Project - assigment_1
+This project showcases the Rocket Biocca espresso machine, a high-end product designed for discerning coffee enthusiasts for home use. The webpage features the product’s main features, an image gallery, technical specifications, and an embedded promotional video.
+
+### Technologies and Features:
+HTML and CSS: Built with HTML and CSS, the site provides a clean layout and aesthetic design.
+
+**Flexbox and Grid:** Flexbox and Grid are used to create responsive sections that adapt to various screen sizes.
+
+**Responsive Design:** Media queries ensure the site performs well on tablets and mobile devices, including landscape mode.
+
+## GitHub link:
+https://github.com/jerzyszajner/assignment_1.git

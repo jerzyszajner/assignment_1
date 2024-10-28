@@ -225,8 +225,6 @@
     /* Product description styles *********/
     .product__article {
         padding: 0;
-        height: var(--spacing-xxxlarge);
-        overflow-y: auto;
     }
 
     .product__description {
@@ -246,7 +244,24 @@
 
     .specifications__list {
         font-size: var(--font-size-xsmall);
-        height: var(--spacing-xxxlarge);
-        overflow-y: auto;
+    }
+}
+
+/* Styles for mobile devices and small screens orientation landscape **********/
+@media screen and (max-height: 600px) and (orientation: landscape) {
+
+    /* Gallery styles **********/
+    .gallery {
+        grid-auto-columns: 50%;
+    }
+
+    .gallery::-webkit-scrollbar {
+        height: var(--spacing-xsmall);
+    }
+
+    /* Video styles **********/
+    .video {
+        margin: 0 auto;
+        width: 70%;
     }
 }
