@@ -24,7 +24,6 @@ body {
     font-family: "Roboto Bold", sans-serif;
     font-size: var(--font-size-meduim);
     text-align: center;
-    text-transform: uppercase;
     border-radius: var(--border-radius-base);
 }
 

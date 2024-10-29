@@ -7,6 +7,9 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_checkout_form
 ## Gallery Carousel referances link:
 https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-snap-type
 
+## Netlify link:
+https://rocket-biocca-demo.netlify.app/
+
 ## Brief Description:
 
 ### Rocket Biocca Espresso Machine Project - assignment_1
