@@ -20,13 +20,13 @@
 }
 
 .footer__link {
-    color: var(--link-color);
+    color: var(--link-color-light);
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .footer__link:hover {
-    color: var(--hover-link-color-light);
+    color: var(--hover-link-color-dark);
     transition: all 0.3s ease;
 }
 
@@ -56,5 +56,9 @@
     /* Footer styles **********/
     .footer__list {
         gap: var(--spacing-medium);
+    }
+
+    .footer__paragraph {
+        font-size: var(--font-size-xsmall);
     }
 }
