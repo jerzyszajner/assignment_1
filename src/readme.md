@@ -20,7 +20,8 @@ https://rocket-biocca-demo.netlify.app/
 
 ## Brief Description:
 
-Challenges Faced:
+### Challenges Faced:
+
 One of the challenges in this project was implementing a smooth scrolling effect for the image gallery. I encountered issues with scroll behavior and consulted GPT for guidance on achieving the desired effect. This helped me understand and apply CSS properties like scroll-snap-type effectively to enhance the user experience.
 
 ### Technologies and Features:
